@@ -118,8 +118,11 @@ while True:
       print()
       print('A Senha fornecida é \033[1;32mválida.\033[m')
       print()
+      
+      #Limpar a tela
       import os
       os.system('clear') or None
+      
       print('\033[1;34mSeu CPF é \033[m\033[0;32m{}\033[m'.format(cpf))
       print()
       print('A sua senha \033[1;31mcriptografada\033[m é',
